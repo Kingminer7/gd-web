@@ -1,0 +1,21 @@
+{
+  "name": "gd-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js",
+    "start": "node server.js",
+    "install": "npm install nodemon express"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/kingminer7/gdweb"
+  },
+  "author": "km7dev",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
